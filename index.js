@@ -26,7 +26,7 @@ const client = new Client({
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   },
   authStrategy: new LocalAuth({
-    dataPath: "src/",
+    dataPath: "",
   }),
 });
 
